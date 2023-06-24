@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #f9faf8;
+    text-decoration: none;
+}
+
+.img {
+    display: flex;
+}
+
+.img img {
+    height: 15rem;
+    width: 15rem;
+    border: 2px #3b3a30 solid;
+    border-radius: 10%;
+    flex: 2 4 12rem;
+}
+
+header img {
+    height: 16rem;
+    width: auto;
+    margin-right: 2rem;
+}
+
+header {
+    background-color:  #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+nav {
+    margin: 0 0 1rem 3rem;
+    display: flex;
+    align-items: last baseline;
+    justify-content: center;
+}
+
+h1 {
+    flex: 2;
+}
+
+nav a {
+    display: flex;
+    flex: 0.4;
+    justify-content: center;
+    align-items: center;
+}
+
+.txt-panda {
+    display: flex;
+    justify-content: left;
+    align-items: start;
+    max-width: 40%;
+    flex-direction: column;
+    font-size: 1.1em;
+}
+
+
+
+.main-screen {
+    display: flex;
+    flex: 1;    
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+h3 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    padding: 1.3rem;
+    color: #1f2937;
+    font-size: 2em;
+}
+
+#galery {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#galery p {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.photo {
+    flex: 1;
+    margin: 0 1rem;
+    padding: 2rem 0 4rem;
+}
+
+
+
+.sign {
+    box-sizing: border-box;
+    background-color: #3882f6;
+    padding: 0.6rem;
+    border-radius: 10%;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    font-size: 1.4em;
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+.quote p {
+    color: #1f2937;
+}
+
+#showup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup {
+    display: flex;
+    background-color: #1f2937;
+    padding: 2em;
+    margin: 3em 0;
+    width: 50em;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+}
+
+.popup h4 {
+    color: #f9faf8;
+}
+
+.popup p {
+    color: #f9faf8;
+    font-size: 1.2em;
+}
+
+footer {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
